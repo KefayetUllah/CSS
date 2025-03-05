@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors and Combinators</title>
+
+    <style>
+        h1{
+            background-color: green;
+        }
+
+        p{
+            background-color: pink;
+        }
+
+        #para1{
+            background-color: yellow;
+        }
+
+        .para2{
+            background-color: blue;
+            color: white;
+        }
+
+        .center{
+            text-align: center;
+        }
+
+<!--Universal Selector-->
+        *{
+            background-color: gray;
+            color: red;
+        }
+
+
+        div p{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>This is a heading 1</h1>
+
+    <p  id="para1">This is a paragraph 1</p>
+    <p class="para2 center">This is a paragraph 2</p>
+    <p>This is a paragraph 3</p>
+
+    <div>
+        <p>This is paragraph 4</p>
+        <p>This is paragraph 5</p>
+    </div>
+    
+</body>
+</html>
